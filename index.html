@@ -1,51 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-        <meta name="description" content="Professional portfolio of an IT student specializing in Java, data structures, and web development. View my projects and skills.">
-        <meta name="keywords" content="IT Student, Java Developer, Portfolio, Computer Science, Web Development, HTML">
-        <meta name="author" content="Tamim Ahmed">
-
-    <title> Portfolio of Tamim Ahmed </title>
+    <meta name="description" content="Professional portfolio of an IT student specializing in Java, data structures, and web development.">
+    <meta name="keywords" content="IT Student, Java Developer, Portfolio, Computer Science, Web Development, HTML">
+    <meta name="author" content="Tamim Ahmed">
+    <title>Portfolio of Tamim Ahmed</title>
     <link rel="icon" href="./letter-tt-t-t-icon-logo-vector.png" type="image/jpg">
+    
+    <style>
+        .links {
+     text-align: right;
+     font-style: italic;
+    }
+
+        
+    h1 {
+      text-align: center;
+      font-family: Impact,serif;
+      font-size: 50px;    }
+
+    h2{
+        padding-left: 30px;
+    }
+
+    .about {
+     text-align: center;
+     color: brown
+    }
+
+    hr {
+        height : 2px;
+        background-color: gray;
+        border-color: gray;
+    }
+    .section h1 {
+        margin-bottom: 1px;
+    }
+
+    .projects p, ul {
+        padding-left: 60px;
+    }
+
+    
+  </style>
+
 </head>
 <body>
-    <header>        
-        <h1 align="center">Tamim Ahmed</h1>
-        <p align="center"><strong>IT Student & Java Developer</strong></p>
-        
-        <section id="about">
-    <h2 align="center">About Me</h2>
-        <figure align="center">
-        <img src="./tamim.jpg.jpeg" alt="photo of Tamim Ahmed" width="200">
-        <figcaption>Tamim Ahmed - IT Student and Java Developer</figcaption>
-    </figure>
-
-    <p align="center">
-        I am currently learning Computer Science and IT. I specialize in Java 
-        programming and data structure.
-    </p>
-</section>
-            <ul>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+    <header>  
+        <section class="section">    
+         <h1>Tamim Ahmed</h1>
+         <p class="links"><strong>IT Student & Java Developer</strong></p>
+        <section/>
+        <hr>
     </header>
-    <footer>
-         <section id="contact-me">
-            <h2>Contact Me</h2>
-          <p id="email">
-            "Email :"
-            <a href="mailto:tamimtthh@gmail.com">tamimtthh@gmail.com</a>
-          </p>
 
-         <p id="phonNumber">
-            "Number :"
-            <a href="tell:017330824635">017330824635</a>
-         </p>
+    <main>
+        <section class="about">
+            <h2>About Me</h2>
+            <figure align="center">
+
+                <img src="./tamim.jpg.jpeg" alt="photo of Tamim Ahmed" width="200">
+                <figcaption>Tamim Ahmed - IT Student and Java Developer</figcaption>
+            </figure>
+            <p>
+                I am currently learning Computer Science and IT. I specialize in Java 
+                programming and data structure.
+            </p>
+        </section>
+        <hr>
+
+        <section class="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Java Programming</li>
+                <li>Data Structures (Nodes, Linked Lists)</li>
+                <li>HTML5 & SEO</li>
+            </ul>
+
+        </section>
+
+        <hr>
+
+        <section class="projects">
+            <h2>Projects</h2>
+            <p><strong>Java Linked List:</strong> A program to manage data using custom nodes.</p>
+            <p><strong>Binary Tree:</strong> A program to show parent and child relationships.</p>
+            <p><strong>Queue:</strong> A system to manage data in a first-in, first-out line.</p>
+            <p><strong>Stack:</strong> A program that handles data like a stack of plates (last-in, first-out).</p>
+<p><strong>Database:</strong> A project to store and search for information using SQL.</p>
+        </section>
+    </main>
+
+    <hr>
+        <section id="contact">
+            <h2>Contact Me</h2>
+
+            <p>Email: <a href="mailto:tamimtthh@gmail.com">tamimtthh@gmail.com</a></p>
+            <p>Number: <a href="tel:017330824635">017330824635</a></p>
         </section>
     </footer>
 </body>
